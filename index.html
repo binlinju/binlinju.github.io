@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bin Li's Homepage</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <link rel="shortcut icon" type="image/x-icon" href="./Files/mambaicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+  <link href='css/style.css?_t=20230916' rel='stylesheet' type='text/css'>
+  <script defer src="font-awesome/js/brands.min.js"></script>
+  <script defer src="font-awesome/js/regular.min.js"></script>
+  <script defer src="font-awesome/js/fontawesome.min.js"></script>
+  <style>
+    .blue {
+      color: rgb(238, 77, 44);
+      font-style: normal;
+    }
+
+    .content h3 {
+      margin-bottom: 1em!important;
+      margin-top: 2em!important;
+    }
+
+    .project-image {
+      box-shadow: 4px 4px 8px #888;
+      margin: 10px 0;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 20px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <!-- 左侧边栏 -->
+        <div class="column is-3_10">
+          <div class="sticky">
+            <figure class="image" style="margin-top: 6px;">
+              <img src="./Files/binli.jpg" alt="Bin Li">
+            </figure>
+
+            <div class="content">
+              <h2 style="margin-top: 1em">Bin Li</h2>
+              <p>
+                Master Candidate<br>
+                Department of Control and Systems Engineering<br>
+                Nanjing University<br>
+                Email: <a href="mailto:binli@smail.nju.edu.cn">binli@smail.nju.edu.cn</a>
+              </p>
+            </div>
+
+            <!-- 社交链接 -->
+            <div class="social">
+              <a href="https://github.com/binli-nju" target="_blank">
+                <span class="fab fa-github fa-2x" style="color: #4a4a4a;"></span>
+              </a>
+              <a href="mailto:binli@smail.nju.edu.cn" target="_blank">
+                <span class="fa-regular fa-envelope-open fa-2x" style="margin-left: 15px; color: #4a4a4a;"></span>
+              </a>
+            </div>
+
+            <!-- 目录 -->
+            <div class="menu sticky is-hidden-mobile">
+              <p class="menu-label"><b>Navigation</b></p>
+              <ul class="menu-list">
+                <li><a href="#interests">Research Interests</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#awards">Awards</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右侧主内容 -->
+        <div class="column right-panel">
+          <div class="content">
+            <!-- 研究兴趣 -->
+            <h2 id="interests">Research Interests</h2>
+            <ul>
+              <li><strong>Reinforcement Learning:</strong> Multi-agent Reinforcement Learning</li>
+              <li><strong>Intelligent Game:</strong> Decision-making in complex game environments</li>
+            </ul>
+
+            <!-- 教育经历 -->
+            <h2 id="education">Education & Experience</h2>
+            <article class="columns">
+              <div class="column is-3">
+                <img src="./Files/nju_logo.jpg" alt="NJU" class="project-image">
+              </div>
+              <div class="column">
+                <p>
+                  <b>M.E. in Control Science</b><br>
+                  Nanjing University<br>
+                  2020.09 - 2023.06<br>
+                  Advisor: Prof. Xianzhong Zhou
+                </p>
+              </div>
+            </article>
+
+            <article class="columns">
+              <div class="column is-3">
+                <img src="./Files/4paradigm_logo.png" alt="4Paradigm" class="project-image">
+              </div>
+              <div class="column">
+                <p>
+                  <b>Reinforcement Learning Intern</b><br>
+                  4Paradigm AI Lab<br>
+                  2022.05 - Present
+                </p>
+              </div>
+            </article>
+
+            <!-- 研究成果 -->
+            <h2 id="research">Research Publications</h2>
+            <!--List of publications--> 
+            <article class="columns">
+                <div class="column is-3">
+                  <figure class="image">
+                    <img src="./Files/solver.pdf" alt="WSFG" style="box-shadow: 4px 4px 8px #888;">
+                  </figure>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <p>
+                      <b>Efficient Transfer Learning for Video-language Foundation Models</b><br>
+                      <b>Haoxing Chen</b>, Zizheng Huang, Yan Hong, Yanshuo Wang, Zhongcai Lyu, Zhuoer Xu, Jun Lan, Zhangxuan Gu.
+                      In: <i>IEEE Conference on Computer Vision and Pattern Recognition(<b>CVPR</b>)</i>, 2025. (<b>CCF-A</b>) <br>
+                    [<a href="https://arxiv.org/pdf/2411.11223.pdf" target="_blank">Paper</a>]  
+                    </p>
+                  </div>
+                </div>
+            </article>
+
+            <article class="columns">
+                <div class="column is-3">
+                  <figure class="image">
+                    <img src="./Files/CoMAN.pdf" alt="WSFG" style="box-shadow: 4px 4px 8px #888;">
+                  </figure>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <p>
+                      <b>Efficient Transfer Learning for Video-language Foundation Models</b><br>
+                      <b>Haoxing Chen</b>, Zizheng Huang, Yan Hong, Yanshuo Wang, Zhongcai Lyu, Zhuoer Xu, Jun Lan, Zhangxuan Gu.
+                      In: <i>IEEE Conference on Computer Vision and Pattern Recognition(<b>CVPR</b>)</i>, 2025. (<b>CCF-A</b>) <br>
+                    [<a href="https://arxiv.org/pdf/2411.11223.pdf" target="_blank">Paper</a>]  
+                    </p>
+                  </div>
+                </div>
+            </article>
+
+            <article class="columns">
+                <div class="column is-3">
+                  <figure class="image">
+                    <img src="./Files/h-model.png" alt="Hierarchical Model" style="box-shadow: 4px 4px 8px #888;">
+                  </figure>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <p>
+                      <b>Hierarchical Architecture for Multi-agent Reinforcement Learning in Intelligent Game</b><br>
+                      <b>Bin Li</b>, Yuxiang Sun, Xianzhong Zhou.
+                      In: <i>IEEE Conference on International Joint Conference on Neural Networks(<b>IJCNN</b>)</i>, 2022. <br>
+                    [<a href="https://arxiv.org/pdf/2411.11223.pdf" target="_blank">Paper</a>]  
+                    </p>
+                  </div>
+                </div>
+            </article>
+
+            <!-- 项目经历 -->
+            <h2 id="projects">Research Projects</h2>
+            <article class="columns">
+              <div class="column">
+                <p>
+                  <b>Multi-agent Deep Reinforcement Learning Task Planning Model</b><br>
+                  • Developed intelligent wargame decision system using DRL algorithms<br>
+                  • Implemented algorithms including DQN, PPO, A3C<br>
+                  • Obtained software copyright (2020R11S0628066)<br>
+                  [<a href="#project">Details</a>]
+                </p>
+              </div>
+            </article>
+
+            <!-- 专业技能 -->
+            <h2 id="skills">Technical Skills</h2>
+            <ul>
+              <li><strong>Programming:</strong> Python, PyTorch, Ray</li>
+              <li><strong>Algorithms:</strong> DQN, PPO, DDPG, Transformer</li>
+              <li><strong>Tools:</strong> Git, Linux, Docker</li>
+            </ul>
+
+            <!-- 获奖情况 -->
+            <h2 id="awards">Honors & Awards</h2>
+            <ul>
+              <li>2022 Nanjing University Outstanding Master Student</li>
+              <li>2021 Second-class Scholarship</li>
+              <li>2020 National Wargaming Competition (3rd in Jiangsu)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 交互脚本 -->
+  <script>
+    $(document).ready(function() {
+      // 平滑滚动
+      $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        const target = $(this.getAttribute('href'));
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top - 20
+          }, 500);
+        }
+      });
+
+      // 激活菜单项
+      $(window).on('scroll', function() {
+        const scrollPos = $(document).scrollTop();
+        $('.menu-list a').each(function() {
+          const currLink = $(this);
+          const refElement = $(currLink.attr('href'));
+          if (refElement.position().top <= scrollPos + 100 && 
+              refElement.position().top + refElement.height() > scrollPos) {
+            $('.menu-list a').removeClass('is-active');
+            currLink.addClass('is-active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
